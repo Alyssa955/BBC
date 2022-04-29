@@ -1,0 +1,624 @@
+<html>
+
+<head>
+    
+  <title>Technology - BBC News</title>  
+   
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    
+<style type="text/css">
+    
+    #topbar {
+        width:10000px;
+        margin:0 auto;
+        height: 53px;
+    } 
+    
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Helvetica, Arial, sans-serif;
+    }
+    
+    #logo {
+        width:90px;
+        height:40 px;
+        margin-top:10px;
+        float:left;
+        margin-right:14px;
+        margin-left:100px;
+       
+        
+    }
+    
+    .topbar-section {
+        float:left;
+        border-left: 1px #CCCCCC solid;
+        height:100%;
+    }
+    
+    #signin-images {
+        width:27px;
+        margin:16px 10px;
+        float:left;
+        
+    }
+    
+    #signin-text {
+        font-weight: bold;
+        font-size: 85%;
+        position:relative;
+        top:21px;
+        margin-right: 80px;
+        
+    }
+    
+    .topbar-menu {
+        font-weight:bold;
+        font-size:80%;
+        padding: 20px 18px;
+        height:24%;
+        
+        
+        
+    }
+    
+    .topbar-right {
+        border-right: 1px #CCCCCC solid;
+        height: 25%;
+    }
+    
+    #arrow {
+        width:20px;
+        margin-left:20px;
+        
+        
+    }
+    
+    #search-box {
+        background-color: #e4e4e4;
+        margin:14px;
+        font-weight:bold;
+        font-size:80%;
+        border:none;
+        padding:4px;
+        float:left
+       
+    }
+    
+    #magnifying-glass {
+    margin:14px -15px 11px;
+        background-color: #e4e4e4;
+        padding:1px;
+        
+    }
+    
+    .clear {
+        clear:both;
+    }
+    
+    #menu-bar-container {
+        background-color: #bb2a26;
+        width:100%;
+        height:70px;
+        
+    }
+    
+    #menu-bar {
+        width:10000px;
+            margin:0 auto;
+    }
+    
+    h1 {
+        padding:0;
+        margin:0;
+        color:white;
+        font-size:50px;
+        font-weight:normal;
+        padding-top:3px;
+        padding-left:100px;
+        font-family: 'Abel', sans-serif;
+        
+        
+    }
+    
+    #menu-bar-2-container {
+        background-color: #bb2a26;
+        width:100%;
+        height:30px;
+        display: flex;
+
+        
+    }
+    
+    #menu-bar-2 {
+        width:10000px;
+        margin:0 auto;
+    }
+    
+    #menu-bar-2 a {
+        color:white;
+        text-decoration: none;
+        margin-top:30px;
+        padding:0 7px;
+        border-right: 1px solid #bb454f;
+        font-size:14px;
+        position:relative;
+        top:3px;
+        left:90px;
+        
+    }
+    
+    .no-border {
+        border:none !important;
+    }
+    
+    #down-arrow {
+        height:15px;
+        width:15px;
+            position:relative;
+        left:82px;
+        top:7px;
+    }
+    
+    #page-container {
+        width:10000px;
+        margin:0 auto;
+        display: flex;
+    }
+    
+    h2 {
+       font-weight:normal;
+        margin-top:40px;
+        font-size: 20px;
+        position:relative;
+        left:95px;
+        border-bottom:3px solid #bb2a26;
+        width:70px;
+        
+    }
+    
+    #hearth {
+        width:500px;
+        position:relative;
+        left:90px;
+       
+    }
+    
+    h3 a {
+        font-weight:bold;
+        font-size:27px;
+        color:black;
+        text-decoration:none;
+        position:relative;
+        left:90px;
+        top:-59px;
+        float:left;
+        
+    }
+    
+    h3 a:hover {
+        color:#3180a2;
+        text-decoration: underline;
+    }
+    
+    #article-summary {
+        font-weight:normal;
+        font-size:15px;
+        color: #6a6a6a;
+        position:relative;
+        left:-365px;
+        top:10px;
+        float:left;
+        
+       
+    }
+        
+    .clock {
+        position:relative;
+        left:-3px;
+        top:4px;
+    }
+    
+    .hours {
+        font-weight:normal;
+        font-size:13px;
+        color: #6a6a6a;
+        position:relative;
+        left:-860px;
+        top:20px;
+        float:left;
+    }
+    
+    .border {
+        border-left:1px solid #CCCCCC;
+        position:relative;
+        left:5px;
+        
+    }
+    
+    .science {
+        position:relative;
+        left:20px;
+        color:black;
+        text-decoration:none;
+    }
+    
+    .science:hover {
+        text-decoration: underline;
+        color:#3180a2;
+    }
+    
+    #list {
+        color:black;
+        font-weight:bold;
+        font-size:16px;
+        position:relative;
+        left:66px;
+        top:40px;
+        float:left;
+    }
+    
+    #img1 {
+        width:250px;
+        float:right;
+        position:relative;
+        left:-89px;
+        top:3px;
+    }
+    
+    #img2 {
+        width:250px;
+        float:right;
+        position:relative;
+        left:-75px;
+        top:3px;
+    }
+    
+    #img3 {
+        width:250px;
+        float:right;
+        position:relative;
+        left:-64px;
+        top:3px;
+    }
+    
+    .article3 {
+        font-weight:bold;
+        font-size:16px;
+        color:black;
+        text-decoration:none;
+        position:relative;
+        left:-78px;
+        top:-144;
+        float:right;
+    }
+    
+    #article-sum-3 {
+         font-weight:normal;
+        font-size:14px;
+        color: #6a6a6a;
+        position:relative;
+        left:148px;
+        top:-100px;
+        float:right;
+    }
+    
+     .article2 {
+        font-weight:bold;
+        font-size:16px;
+        color:black;
+        text-decoration:none;
+        position:relative;
+        left:83px;
+        top:-144;
+        float:right;
+    }
+    
+    #article-sum-2 {
+         font-weight:normal;
+        font-size:14px;
+        color: #6a6a6a;
+        position:relative;
+        left:310px;
+        top:-100px;
+        float:right;
+    }
+    
+    .article1 {
+        font-weight:bold;
+        font-size:16px;
+        color:black;
+        text-decoration:none;
+        position:relative;
+        left:261px;
+        top:-144;
+        float:right;
+    }
+    
+    #article-sum-1 {
+         font-weight:normal;
+        font-size:14px;
+        color: #6a6a6a;
+        position:relative;
+        left:490px;
+        top:-100px;
+        float:right;
+    }
+    
+     
+    #img6 {
+        width:250px;
+        float:right;
+        position:relative;
+        left:-58px;
+        top:-89px;
+    }
+    
+    #img5 {
+        width:250px;
+        float:right;
+        position:relative;
+        left:-72px;
+        top:-89px;
+    }
+    
+    #img4 {
+        width:250px;
+        float:right;
+        position:relative;
+        left:-84px;
+        top:-89px;
+    }
+    
+    .article6 {
+        font-weight:bold;
+        font-size:16px;
+        color:black;
+        text-decoration:none;
+        position:relative;
+        left:670px;
+        top:66;
+        float:right;
+    }
+    
+    #article-sum-6 {
+         font-weight:normal;
+        font-size:14px;
+        color: #6a6a6a;
+        position:relative;
+        left:868px;
+        top:94px;
+        float:right;
+    }
+    
+    .article5 {
+        font-weight:bold;
+        font-size:16px;
+        color:black;
+        text-decoration:none;
+        position:relative;
+        left:811px;
+        top:50px;
+        float:right;
+    }
+    
+    #article-sum-5 {
+         font-weight:normal;
+        font-size:14px;
+        color: #6a6a6a;
+        position:relative;
+        left:817px;
+        top:60px;
+        float:right;
+    }
+    
+    .article4 {
+        font-weight:bold;
+        font-size:16px;
+        color:black;
+        text-decoration:none;
+        position:relative;
+        left:155px;
+        top:-35px;
+        float:right;
+    }
+    
+    #article-sum-4 {
+         font-weight:normal;
+        font-size:14px;
+        color: #6a6a6a;
+        position:relative;
+        left:378px;
+        top:15px;
+        float:right;
+    }
+    
+ 
+</style>
+    
+</head>
+    
+    
+<body>
+    
+<div id="topbar">
+  <img id="logo" src="bbc-logo-png-transparent.png">  
+  
+    <div id="signin-div" class="topbar-section">
+    
+    <img id="signin-images" src="sign%20in%20image.png">
+        <span id="signin-text">Sign in</span>
+    </div>
+    
+    <div class="topbar-section topbar-menu" >
+    Home
+    
+    </div>
+    <div class="topbar-section topbar-menu" >
+    News
+    
+    </div>
+    <div class="topbar-section topbar-menu" >
+    Sport
+    
+    </div>
+    <div class="topbar-section topbar-menu" >
+    Reel
+    
+    </div>
+    <div class="topbar-section topbar-menu" >
+    Worklife
+    
+    </div>
+    <div class="topbar-section topbar-menu" >
+    Travel
+    
+    </div>
+    <div class="topbar-section topbar-menu" >
+    Future
+    
+    </div>
+    <div class="topbar-section topbar-menu" >
+    Culture
+    
+    </div>
+    <div class="topbar-section topbar-menu topbar-right" >
+    More
+    <img id="arrow" src="arrow.png">
+    </div>
+    
+    <div class="2topbar-section">
+        <input id="search-box" type="text" value="Search">
+        <input type="image" id="magnifying-glass" src="magnifie.png">
+                               </div>
+    
+     </div>   
+    
+    <div class="clear"></div>
+    
+    <div id="menu-bar-container">
+    <div id="menu-bar"></div>
+    
+    <h1>NEWS</h1>
+    <div class="clear"></div>
+    <div id="menu-bar-2-container">
+    <div id="menu-bar-2">
+        
+        <a href="">Home</a>
+         <a href="">Coronavirus</a>
+         <a href="">Video</a>
+         <a href="">World</a>
+         <a href="">UK</a>
+         <a href="">Business</a>
+         <a href="">Tech</a>
+         <a href="">Science</a>
+         <a href="">Stories</a>
+         <a href="">Entertainment & arts</a>
+         <a href="">Health</a>
+         <a href="">World News TV</a>
+         <a href="">In Pictures</a>
+         <a href="">Reality Check</a>
+         <a href="" class="no-border">More</a>
+        <img id="down-arrow" src="more%20arrow.png">
+        </div> 
+        </div>    
+        
+    </div>
+    <div class="clear"></div>
+    
+    <div id="page-container"></div>
+    
+    <div id="main-article">
+    
+    <h2>Science</h2>
+        
+        <img id="hearth" src="hearth.png">
+          <img id="img3" src="img3.png"> 
+          <img id="img2" src="img2.png">
+        <img id="img1" src="img1.png"> 
+      
+      
+        <h3><a href="" class="article3">Garden centres 'failing to stop<br> peat sales'</a></h3>
+        <div id="article-sum-3">Just one of 20 retailers contacted by <br> The Wildlife Trusts says it will<br> remove peat from its shelves this<br> year.</div>
+        
+        <h3><a href="" class="article2">Sub dives deepest-known<br> shipwreck</a></h3>
+        <div id="article-sum-2">A submersible has reached the USS<br> Johnston, which lies 6.5km beneath <br> the waves in the Pacific.</div>
+        
+         <h3><a href="" class="article1">Then and now: Rising<br> temperatures threaten corals</a></h3>
+        <div id="article-sum-1">In a monthly feature, we explain how <br> warming water threaten the<br> survival of a wonder of the seas.</div>
+        
+        <h3><a href="">Dino-killing space rock gave rise to<br> Amazon forest</a></h3>
+    
+        <div id="article-summary">The asteroid that killed off the dinosaurs gave birth to tropical rainforests, a <br> study suggests.</div>
+        
+        <p class="hours"><img class="clock" src="clock.png">3h<a class="border"></a><a class="science" href="">Science & Environment</a></p>
+      
+      <ul>
+        <li id="list">Dinosaur asteroid's trajectory was 'perfect storm'</li>
+        </ul>  
+        
+        
+        <div>
+        <img id="img6" src="img6.png">
+        <img id="img5" src="img5.png">
+        <img id="img4" src="img4.png">
+       
+        <h3><a href="" class="article6">Government has 'no plans' to <br> delay climate summit</a></h3>
+        <div id="article-sum-6">Downing Street sources reject<br> reports the COP26 meeting in<br> Glasgow will be postponed until<br> next year.</div>
+        
+        
+        
+        <h3><a href="" class="article5">Net zero climate targets are<br> 'pie in the sky'</a></h3>
+        <div id="article-sum-5">Indian minister lashes out at plans<br> to cut emissions dramatically over<br> the next three decades.</div>
+        
+        <h3><a href="" class="article4">Warning to give seals space as<br> lockdown eases</a></h3>
+        <div id="article-sum-4">The Seal Alliance warns that getting<br> too close to the animals can lead to<br> their injury and death.</div>
+      
+         <p class="hours"><img class="clock" src="clock.png"><span class="border"></span><a class="science" href="">UK Politics</a></p>
+        </div>
+        
+    </div>
+    
+    
+    
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
